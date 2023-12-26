@@ -1,0 +1,63 @@
+body{
+    background-color:aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #154474;
+    color: #ecf0f1;
+    height: 230px;
+    align-items: center;
+    display: flex;
+}
+
+#span_titolo{
+    display: block;
+    margin-left:80px;
+}
+
+section{
+    margin-left:80px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.boxs{
+    margin-top:4%;
+    height: 150px;
+    width: 80%;
+    border-radius: 1cm;
+    border:black;
+    border:solid;
+}
+
+#contenuto2{
+}
+
+#img1{
+    height: 300px;
+    width: 300px;
+    display: block;
+}
+
+#immagini{
+}
+
+#immagini2{
+
+}
+
+footer{
+    background-color: #154474;
+    color: #ecf0f1;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    display: block;
+}
+
+#contatti{
+
+}
