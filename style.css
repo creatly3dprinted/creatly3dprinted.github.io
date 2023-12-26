@@ -18,16 +18,18 @@ header{
 }
 
 section{
-    margin-left:80px;
-    height: 800px;
+    margin-left:10%;
+    height: 70%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .boxs{
     margin-top:4%;
     height: 150px;
-    width: 80%;
+    width: 85%;
+    font-size: 18px;
     border-radius: 1cm;
     border:black;
     border:solid;
@@ -37,12 +39,22 @@ section{
 }
 
 #img1{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    display: block;
+}
+
+#img2{
+    height: 250px;
+    width: 250px;
     display: block;
 }
 
 #immagini{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-top:10%
 }
 
 #immagini2{
@@ -59,3 +71,29 @@ footer{
 
 #contatti{
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #immagini{
+        display: flex;
+        justify-content: center;
+        width: 85%;
+    }
+    #img1{
+        height: 100px;
+        width: 100px;
+        display: block;
+    }
+    
+    .boxs{
+        margin-top:4%;
+        height: 150px;
+        width: 85%;
+        font-size: 14px;
+        border-radius: 1cm;
+        border:black;
+        border:solid;
+    }
+  }
